@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <!-- daisyUI and tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/d69151b4e0.js" crossorigin="anonymous"></script>
+
+    <!-- tailwind custom css -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- internal css -->
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+
+</head>
+
+<body class="font-manrope">
+    <!-- banner section at top -->
+    <header class="mx-5 lg:mx-48 mt-5 lg:mt-20">
+        <div class="flex flex-col justify-between items-center gap-8 lg:flex-row">
+            <div class="space-y-7 text-center lg:text-left w-full lg:w-[60%]">
+                <h1 class="text-4xl lg:text-7xl font-extrabold text-black">It's good
+                    tea time at The Tea House</h1>
+                <p class="text-lg font-medium text-[#777]">Tea and Botanical Solutions Supplier Give Optimum
+                    Satisfaction To Your Taste Buds.</p>
+                <button class="btn btn-primary rounded-lg">Explore More</button>
+            </div>
+            <div>
+                <img src="images/banner.png" alt="">
+                <div class="flex items-center gap-4 border-2 rounded-lg p-2 lg:p-5 bg-white shadow-lg w-[80%] md:w-[40%] lg:w-64 -mt-16 lg:-mt-28 ml-8 md:ml-44 lg:ml-12 relative">
+                    <i class="fa-solid fa-star fa-2xl" style="color: #FFD43B;"></i>
+                    <div>
+                        <h4 class="text-lg lg:text-3xl font-extrabold">5.00</h4>
+                        <p class="font-semibold text-sm lg:text-base md:text-base text-[#777]">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
